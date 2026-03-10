@@ -26,7 +26,7 @@ The implementation is naive.
 
 There are most likely way more efficient ways to do the simulation, scoring and optimization, byt _hey_ - I was coming down with a severe case of manflu at the time and this is the best I could come up with. My fever brain could do high school math and basic geometry, not Jacobian matrices and gradients.
 
-Running 5 GAs, each with a population size of 5000 genees on a M2 Max MacBook pro will simulate and evaluate approximately 12k genes / second.
+Running 5 GAs, each with a population size of 5000 genes on a M2 Max MacBook pro will simulate and evaluate approximately 12k genes / second.
 
 # How to run the program 
 
