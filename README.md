@@ -137,3 +137,4 @@ make clean          # removes ./citybeest
 ```
 
 ## License
+This software is licenced under GNU GENERAL PUBLIC LICENSE Version 3
