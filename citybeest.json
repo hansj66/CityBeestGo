@@ -1,0 +1,8 @@
+{
+  "parallel_ga_workers": 5,
+  "pool_size": 5000,
+  "best_genes_file": "fittest.txt",
+  "favourite_genes_file.txt": "genes.txt",
+  "doomsday_clock": 500,
+  "generation_report_batch_size": 1
+}
