@@ -54,11 +54,12 @@ make all
 
 ![evolution mode](./pictures/evolution.png)
 
+The preview will loop an animation of the fittest individual to date. Once the algorithm finds a better solution, the new genes will be saved to file and the preview will switch to the new one.
+If evolution gets stuck on a plateau, the mutation risk increases - until doomsday, when a new population is started from a random pool.
+
 ## Run evolution without gui
 
-The preview will loop an animation of the fittest individual to date. Once the algorithm finds a better solution, the new genes will be saved to file and the preview will switch to the new one.
-
-If evolution gets stuck on a plateau, the mutation risk increases - until doomsday, when a new population is started from a random pool.
+This runs the same optimization as the GUI variant, but there is no - wait for it - GUI.
 
 ```bash
 ./citybeest headless
