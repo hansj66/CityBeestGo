@@ -40,12 +40,6 @@ You can run the evolution game with a graphical preview (definetly most fun) or 
 - `headless`: GA only, saves improvements to `fittest.txt`.
 - `history <file>`: load saved genes and inspect with arrow keys.
 
-For compatibility with the C++ app behavior, you can also run:
-
-- `citybeest headless`
-- `citybeest <history-file>`
-- `citybeest <window-x> <window-y>`
-
 ## Build
 
 ```bash
