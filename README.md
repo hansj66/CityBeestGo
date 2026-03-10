@@ -7,7 +7,7 @@ The linkage is the same that is used in Theo Jansen's [Strandbeest](https://www.
 
 The original C++ code was used to evolve the beest that was displayed at Trondheim Maker Faire and Rome Maker Faire in 2015. 
 
-Click on the picture below to see the original CityBeest in action. The linkage parameters on this variant took approximately 10 days to evolve in 2012.
+Click on the picture below to see the original CityBeest in action. The linkage parameters on this variant took approximately 10 days to evolve on a (at the time) high end dual Xeon machine.
 
 [![Video Thumbnail](./pictures/sensortest.png)](https://www.youtube.com/watch?v=HN8uMVizr2c)
 
