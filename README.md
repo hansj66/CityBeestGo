@@ -14,7 +14,7 @@ Click on the picture below to see the original CityBeest in action. The linkage 
 
 ## Overview
 
-The program uses an evolutionary strategy, where one or more genetic algorithm initializes a "gene pool" representing linkage parameters. These are then simulated and scored against a heuristic based objective function. The fittest individuals will survive and breed new offspring. Non-viable genes will die off.
+The program uses an evolutionary strategy, where a pool of genetic algorithms initialize associated gene pools, where each "gene" represents a set of linkage parameters. These are then simulated and scored against a heuristic based objective function. The fittest individuals will survive and breed new offspring. Non-viable genes will die off.
 
 A timer counts down to doomsday. As time goes by, the chance of mutations increases and when the timer runs out, the entire population is culled and a new one is pulled from a random pool and given a chance to compete.
 
@@ -25,6 +25,8 @@ Each time a new set of genes outperforms the previous best fit, the gene is save
 The implementation is naive. 
 
 There are most likely way more efficient ways to do the simulation, scoring and optimization, byt _hey_ - I was coming down with a severe case of manflu at the time and this is the best I could come up with. My fever brain could do high school math and basic geometry, not Jacobian matrices and gradients.
+
+Running 5 GAs, each with a population size of 5000 genees on a M2 Max MacBook pro will simulate and evaluate approximately 12k genes / second.
 
 # How to run the program 
 
