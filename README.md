@@ -20,6 +20,17 @@ A timer counts down to doomsday. As time goes by, the chance of mutations increa
 
 Each time a new set of genes outperforms the previous best fit, the gene is saved to file. 
 
+## A note regarding the implementation
+
+The implementation is naive. 
+
+There are most likely way more efficient ways to do the simulation, scoring and optimization, byt _hey_ - I was coming down with a severe case of manflu at the time and this is the best I could come up with. My fever brain could do high school math and basic geometry, not Jacobian matrices and gradients.
+
+# How to run the program 
+
+(It might be a good idea to build it first)
+
+You can run the evolution game with a graphical preview (definetly most fun) or "headless" if you just want to burn CPU in the background. Past winning walkers can be viewed in history mode.
 
 ## Modes
 
