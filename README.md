@@ -14,7 +14,7 @@ Click on the picture below to see the original CityBeest in action. The linkage 
 
 ## Overview
 
-The program uses an evolutionary strategy, where one or more genetic algorithm initializes a "gene pool" representing linkage parameters. These are then simulated and scored against a heuristic based objective function. The fittest individuals will survive and breed new offspringe. Non-viable genes will die off.
+The program uses an evolutionary strategy, where one or more genetic algorithm initializes a "gene pool" representing linkage parameters. These are then simulated and scored against a heuristic based objective function. The fittest individuals will survive and breed new offspring. Non-viable genes will die off.
 
 A timer counts down to doomsday. As time goes by, the chance of mutations increases and when the timer runs out, the entire population is culled and a new one is pulled from a random pool and given a chance to compete.
 
